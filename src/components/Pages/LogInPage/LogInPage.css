@@ -1,0 +1,44 @@
+.log-in-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 95%;
+  font-weight: bold;
+}
+
+.page-logo {
+  margin: 1rem;
+  width: 70%;
+  height: 25%;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    2px 6px 24px 11px rgba(82, 82, 82, 0.89);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+  margin-top: 2rem;
+  gap: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 0.15rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 0.2rem;
+}

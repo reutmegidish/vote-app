@@ -1,0 +1,25 @@
+.dropdown-menu {
+  width: 200px;
+  margin: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none; /* להסיר את הניראות הסטנדרטית של תיבת הבחירה */
+  background-color: #fff; /* רקע לבחירת האופציה */
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff; /* צביעת מסגרת כאשר התיבה רקומה */
+}
+
+option {
+  background-color: #fff; /* רקע לאופציות הבחירה */
+}
+
+/* צבעים ועיצוב נוספים בהתאם לסגנון העיצוב של האפליקציה שלך */
